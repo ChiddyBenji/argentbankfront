@@ -15,10 +15,18 @@ body {
 
 .main {
   flex: 1;
+  height: 85vh;
+}
+
+@media (max-width: 1024px) { .main{
+  height: auto !important;
+}
 }
 
 .bg-dark {
   background-color: #12002b;
+  display: flex;
+  flex-direction: column;
 }
 
 .sr-only {
@@ -171,6 +179,7 @@ body {
   margin: 0 auto;
   margin-top: 3rem;
   padding: 2rem;
+  height: 365px;
 }
 
 .sign-in-icon {

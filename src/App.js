@@ -3,6 +3,8 @@ import HomePage from './pages/HomePage';
 import SignInPage from './components/Auth/SignInPage';
 import UserPage from './pages/User';
 import PrivateRoute from './components/Common/PrivateRoute';
+import 'font-awesome/css/font-awesome.min.css';
+
 
 function App() {
   return (
